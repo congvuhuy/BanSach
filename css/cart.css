@@ -1,0 +1,100 @@
+.view-cart {
+    position: fixed;
+    top: 60px;
+    right: 0;
+    margin-top: 3px;
+    width: 400px;
+    height: auto;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-left: 2px solid rgba(255, 255, 255, .5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    z-index: 99;
+}
+
+.view-cart .head-cart {
+    position: relative;
+    padding: 10px;
+    width: 100%;
+    height: 40px;
+    font-size: 1.2em;
+    border-bottom: 2px solid rgba(255, 255, 255, .5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    justify-content: space-between;
+    z-index: 99;
+}
+
+.view-cart .head-cart ion-icon {
+    position: fixed;
+    right: 5px;
+    cursor: pointer;
+}
+
+.view-cart .product {
+    width: 100%;
+    height: 80px;
+    font-size: 1.1em;
+    margin: 10px;
+    margin-top: 10px;
+}
+
+.view-cart .product img {
+    float: left;
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+.view-cart .product .del-book-in-cart {
+    position: absolute;
+    color: black;
+    margin-left: 270px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.view-cart .product .name {
+    color: black;
+    margin-bottom: 2px;
+}
+
+.view-cart .product .cost {
+    font-size: 0.8em;
+    color: darkgrey;
+    margin-bottom: 3px;
+}
+
+.view-cart .product .qty-buy {
+    font-size: 0.8em;
+    color: black;
+    margin-bottom: 2px;
+}
+
+.view-cart .product .xem-chi-tiet {
+    color: darkgray;
+    font-size: 0.8em;
+}
+
+.view-cart .btn-order {
+    width: 130px;
+    height: 40px;
+    background: dodgerblue;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 500;
+    margin: 10px;
+    margin-left: 220px;
+}
+
+.view-cart .btn-order:hover{
+    border: solid thin dodgerblue;
+    background-color: azure;
+    color: dodgerblue;
+}

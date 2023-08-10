@@ -1,0 +1,96 @@
+.detail-product {
+    width: 1500px;
+    height: 500px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+
+.detail-product .title {
+    padding: 10px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    color: #3b5998;
+    border-bottom: solid thin rgb(225, 222, 222);
+}
+
+.detail-product .img-product {
+    width: 700px;
+    height: 400px;
+    float: left;
+    margin-right: 50px;
+    margin-left: 100px;
+    padding: 50px 200px;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+
+.detail-product .img-product img {
+    width: 300px;
+    height: 300px;
+}
+
+.detail-product p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.detail-product .name {
+    margin-top: 70px;
+    font-size: 1.5em;
+    color: darkgray;
+}
+
+.detail-product .input-qty {
+    width: 50px;
+    font-size: 1.0em;
+    text-align: right;
+}
+
+.detail-product .add-to-cart {
+    width: 180px;
+    height: 40px;
+    background: dodgerblue;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 500;
+    margin: 10px;
+    margin-left: 220px;
+}
+
+.detail-product .add-to-cart:hover {
+    border: solid thin dodgerblue;
+    background-color: azure;
+    color: dodgerblue;
+}
+
+#detail-fragment .product-suggest {
+    width: 1500px;
+    margin: 10px;
+    margin-top: 0px;
+    background-color: #fff;
+}
+
+#detail-fragment .product-suggest .list-books {
+    position: relative;
+    display: flex;
+}
+
+#detail-fragment .product-suggest .title {
+    color: #3b5998;
+    padding: 10px;
+    padding-left: 20px;
+    text-decoration: underline;
+    border-bottom: solid thin rgb(225, 222, 222);
+}
